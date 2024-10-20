@@ -1,5 +1,5 @@
 
-import CollageImage from "../images/images.png"
+import CollageImage from "../images/college.png"
 function Collage() {
 
     return (
