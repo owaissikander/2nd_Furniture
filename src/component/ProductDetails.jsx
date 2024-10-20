@@ -25,7 +25,7 @@ function ProductDetails() {
         title: product.title,
         image: product.thumbnail,
         price: product.price,
-        qty: quantity
+        //qty: quantity
 
     }
 
@@ -205,10 +205,10 @@ function ProductDetails() {
                                     ${product.price}
                                 </span>
                                 <button
-                                    onClick={quantity > 1 ? handleAddMore : addtoCart}
+                                    onClick={ addtoCart}
                                     className="flex ml-auto text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-300 rounded"
                                 >
-                                    {quantity > 1 ? "Add More" : "Add to Cart"}
+                                    { "Add to Cart"}
                                 </button>
                                 <button className="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
                                     <svg

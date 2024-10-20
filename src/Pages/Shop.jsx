@@ -6,7 +6,7 @@ import Halfbanner from '../component/Halfbanner';
 const { Meta } = Card;
 
 
-function Shop() {
+function Shop(props) {
 
     const [furnitureProducts, setFurnitureProducts] = useState([]);
     const [isLoading, setIsLoading] = useState(false); // Track loading state
@@ -27,16 +27,16 @@ function Shop() {
 
         fetchData();
     }, []); // Empty dependency array to fetch data on component mount
-
+    const shop = "Shop"
     return (
 
         <>
-<Halfbanner/>
+            <Halfbanner props={shop} />
             {/* <h1 className='text-center text-2xl font-bold m-4'>Shop</h1> */}
 
             {
                 isLoading ? (
-                    <p>Loading furniture products...</p>
+                    <p className='text-xl text-center '>Loading furniture products...</p>
                 ) : (
                     <div>
 
@@ -62,7 +62,7 @@ function Shop() {
                             ))}
                         </div>
                     </div>)}
-                    <Footer/>
+            <Footer />
         </>
     )
 

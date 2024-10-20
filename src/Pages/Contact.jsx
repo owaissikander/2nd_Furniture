@@ -1,10 +1,10 @@
 import Footer from "../component/Footer";
-
+import Halfbanner from "../component/Halfbanner"
 function Contact() {
     return (
 
 <>
-
+<Halfbanner/>
 
         <section className="text-gray-600 body-font relative">
             <div className="container ps-0 py-24 mx-auto flex sm:flex-nowrap flex-wrap">

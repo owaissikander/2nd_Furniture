@@ -20,8 +20,8 @@ function SecondCart() {
                                 src={`${Dining}`}
                             />
                         </a>
-                        <div className="mt-4">
-                            <h2 className="text-gray-900 title-font text-lg font-medium">
+                        <div className="mt-4 ">
+                            <h2 className="text-gray-900 mx-28 title-font text-lg font-medium">
                                 Dinning
                             </h2>
                         </div>
@@ -29,8 +29,8 @@ function SecondCart() {
                 </div>
 
 
-                <div className="flex flex-wrap -m-4">
-                    <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+                <div className="flex  flex-wrap -m-4">
+                    <div className="lg:w-1/4 md:w-1/2 p-4 w-full   ">
                         <a className="block relative h-48 rounded w-[320px] h-[420px] overflow-hidden">
                             <img
                                 alt="ecommerce"
@@ -38,8 +38,8 @@ function SecondCart() {
                                 src={`${living}`}
                             />
                         </a>
-                        <div className="mt-4 ">
-                            <h2 className=" text-center text-gray-900 title-font text-lg font-medium">
+                        <div className="mt-4  ">
+                            <h2 className=" text-center mx-28 text-gray-900 title-font text-lg font-medium">
                                 Living
                             </h2>
                         </div>
@@ -57,7 +57,7 @@ function SecondCart() {
                             />
                         </a>
                         <div className="mt-4">
-                            <h2 className="text-gray-900 title-font text-lg font-medium">
+                            <h2 className="text-gray-900 mx-28 title-font text-lg font-medium">
                                 Bedroom
                             </h2>
                         </div>

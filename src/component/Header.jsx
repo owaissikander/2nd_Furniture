@@ -95,12 +95,12 @@ console.log( "cartItems----->", cartItems);
             </Link>
           </NavbarItem>
           <NavbarItem  justify="end">
-            <Link  href="/Shop">
+            <Link color="foreground"  href="/Shop">
               Shop
             </Link>
           </NavbarItem>
           <NavbarItem >
-            <Link href="#" aria-current="page">
+            <Link href="#" color="foreground" aria-current="page">
               About
             </Link>
           </NavbarItem>

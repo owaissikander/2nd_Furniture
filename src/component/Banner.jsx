@@ -18,18 +18,18 @@ function Banner() {
                 backgroundPosition: "center",
 
                 backgroundRepeat: "no-repeat",
-                backgroundImage: `url(https://s3-alpha-sig.figma.com/img/98fb/219f/a11f805aade2224f1d6658764a2395df?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=I8SBzd6u2RRJF7HHbCE2yVAQsNiYEpqLlyn6a4lKrjydBdUe8oPNwdnnBGWsdl~TesS12RhESv23mFB00ic6R7Hfxgr7weZEIPMho8e7PtcmBUCSV11BizLPM0B-sMQUQGpDICE5r1XpZzM6N85acUJxJCHkuxgqkYxzKCHctD5IVAmb7NxA6D7dmxOLoq4RHWqnINY8dguK3AZ0j0GL0aY35GCqA1DL2sllHkfKtg-y~at2j75lyJml41GxOviO7y~wDsb9vEIiaHDK~crSVlxVZUQvw0kRVy5kMKyPJX5qv4s0QJ8MQcSmcTF3-l219LhuQmH3Kn87u7VYEuKmTg__)`
+                backgroundImage: `url(https://s3-alpha-sig.figma.com/img/98fb/219f/a11f805aade2224f1d6658764a2395df?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nKx2kWpHDrFvf1gIsCdzjlgHdj-enjUkQpXWQfgoaA~GJ~iD8Y54inQzhHyifkFmdaoZGw75zHxw~91Xie6Apukh4VS77KKz3WRHh60L3QF~aCJZqBaQAmNda-FFTCpEywkrpPp3EjsHzWy3CMiNd1LSYAWOfOvgKKeRKn86E-gy0~NBAvd-yZDq5-sAmfX2vyREPJFfNccJ7Nu6vgqX3ncKhA7emQ3248-p3-3k50oWHfpN~JCCSaugLgh32OamcW0dzVAbRE~5yhpbfl9S1vDAToR20PnF~7vHY9yrEzPiTjH3sUTr5MWdAjkkeCWh-3MWwiXdhALbMx3VG7WAAg__ )`
             }}>
             {/* banner ka ander wali image */}
             <div className="w-[573px] h-[380px]"
                 style={{
                     zIndex: "auto",
-                    position: "fixed",
                     top: "253px",
                     left: "739px",
+                    position : "absolute"
                 }}
             >
-                {/* <img src={`${images}`} /> */}
+                <img src={`${images}`} />
             </div>
 
         </div >

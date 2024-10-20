@@ -12,6 +12,7 @@ import Home from './Pages/Home'
 import ProductDetails from './component/ProductDetails'
 import Shop from './Pages/Shop'
 import Halfbanner from './component/Halfbanner'
+import Collage from './component/Collage'
 
 
 

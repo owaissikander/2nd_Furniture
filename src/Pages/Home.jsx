@@ -4,6 +4,7 @@ import Banner from '../component/Banner';
 import SecondCart from '../component/SecondCart';
 import Footer from '../component/Footer';
 import { Link } from 'react-router-dom';
+import Collage from '../component/Collage';
 const { Meta } = Card;
 
 function Home() {
@@ -38,7 +39,7 @@ function Home() {
         ) : (
           <div>
 
-            <div className="furniture-cards flex   gap-4 m-4 flex-wrap">
+            <div className="furniture-cards flex  gap-4 m-4 flex-wrap">
               {/* Add a class for styling */}
               {furnitureProducts.map((data) => (
                 <Card
@@ -49,8 +50,6 @@ function Home() {
                 >
                   <Meta title={data.title} description={data.brand} />
                   <div className='flex justify-end'>
-
-
                     <Link to={`/Home/${data.id}`}>
                       <Button>View Details</Button>
                     </Link>
@@ -61,7 +60,7 @@ function Home() {
 
 
             </div>
-            <div className="flex flex-wrap m-4 inline-block">
+            <div className="flex flex-wrap d-inline m-4 inline-block">
               {furnitureProducts.map((data) => (
                 <Card
                   key={data.id}
@@ -78,10 +77,18 @@ function Home() {
 
                 </Card>
               ))}
+
             </div>
           </div>
         )}
+
+        <div className=' flex justify-center' >
+          <Link to={'/Shop'} >
+            <Button  className='px-12 font-bold text-orange-500 py-6 border-orange-500' >Show More</Button>
+          </Link>
+        </div>
       </div>
+      <Collage/>
       <Footer />
     </>
   );
