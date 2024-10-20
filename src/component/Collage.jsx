@@ -1,6 +1,5 @@
 
 import CollageImage from "../images/images.png"
-import ShoppingDrawer from "./ShoppingDrawer";
 function Collage() {
 
     return (
